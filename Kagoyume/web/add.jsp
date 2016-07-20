@@ -22,8 +22,20 @@
         <%=kagoyume.Helper.header(request)%>
         <div class="main">
         <h1>カートに追加しました</h1>
-        <%=item.name%><%=request.getAttribute("qty")%>個<br>
-        価格:<div style="color:red;font-weight: bold;display: inline-block">&yen;<%=item.price%></div>
+        <div style="height: 300px">
+                <img alt="<%=item.name%>" src="<%=item.imageurl%>" style="float: left;margin-right: 2%"><br>
+                <h3 style="margin:1px"><%=item.name%></h3><br>
+                <div style="font-size:small;margin-top:-1.5% "><%=item.storename%></div>
+                <div style="font-weight: bold;">
+                    <span style="color: red">&yen;<%=item.price%></span>
+                    個数:<%=request.getAttribute("qty")%>個</div>
+                <br>
+        </div>
+            <div align="center">
+                <a href="Search?query=<%=request.getAttribute("query")%>&page=<%=request.getAttribute("page")%>">検索結果に戻る</a>
+            </div>
+            <br>
+            <%=kagoyume.Helper.top()%>
         </div>
     </body>
 </html>

@@ -29,12 +29,12 @@
             <%for(CartData cd : cart){%>
             <li class="pure-u-1">
                 <div class="pure-u-4-5" style="font-weight: bold">
-                    <a style="vertical-align: middle;display: inline-block;" href="http://localhost:8080/Kagoyume/Item?itemcode=<%=cd.getItemcode()%>">
+                    <div style="vertical-align: middle;display: inline-block;">
                         <img alt="<%=cd.getItemcode()%>" src="<%=cd.getImgurl()%>"> 
-                    </a>
-                    <a class="pure-u-3-5" style="vertical-align: middle;display: inline-block;" href="http://localhost:8080/Kagoyume/Item?itemcode=<%=cd.getItemcode()%>">
+                    </div>
+                    <div class="pure-u-3-5" style="vertical-align: middle;display: inline-block;">
                         <p><%=cd.getItemname()%></p>
-                    </a>
+                    </div>
                 </div>
                 <div align="right" class="pure-u-1-5" style="margin-left:-1%;margin-top: 5%;">
                     <div style="font-weight: bold;">

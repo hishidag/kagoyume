@@ -13837,3 +13837,409 @@ java.lang.Thread.run(Thread.java:745)
 [2016-07-20 13:20:35] userID:29  username:a
 [2016-07-20 13:20:38] mydelete
 [2016-07-20 13:20:38] userID29
+[2016-07-20 13:51:52] [!ERROR]java.lang.NullPointerException
+kagoyume.Mydata.processRequest(Mydata.java:40)
+kagoyume.Mydata.doGet(Mydata.java:68)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.lang.Thread.run(Thread.java:745)
+[2016-07-20 13:51:55] login ng
+[2016-07-20 13:51:55] [!ERROR]java.lang.IllegalStateException: ƒŒƒXƒ|ƒ“ƒX‚ªƒRƒ~ƒbƒg‚³‚ê‚½Œã‚ÅsendRedirect()‚ğŒÄ‚Ño‚·‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñ
+org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:482)
+kagoyume.Login.processRequest(Login.java:54)
+kagoyume.Login.doPost(Login.java:92)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.lang.Thread.run(Thread.java:745)
+[2016-07-20 13:51:59] login completed
+[2016-07-20 13:51:59] cart search completed
+[2016-07-20 13:51:59] login ok
+[2016-07-20 13:51:59] userID:29 username:a
+[2016-07-20 13:51:59] userdatasearchByid completed
+[2016-07-20 13:51:59] mydata
+[2016-07-20 13:51:59] userID:29
+[2016-07-20 13:52:01] buydata search complete
+[2016-07-20 13:52:01] myhistory
+[2016-07-20 13:52:01] userID29
+[2016-07-20 13:52:06] userdatasearchByid completed
+[2016-07-20 13:52:06] mydata
+[2016-07-20 13:52:06] userID:29
+[2016-07-20 13:52:07] buydata search complete
+[2016-07-20 13:52:07] myhistory
+[2016-07-20 13:52:07] userID29
+[2016-07-20 13:52:09] Cart
+[2016-07-20 13:52:14] Search‚É‘JˆÚ
+[2016-07-20 13:52:14] ŒŸõŒê‹å:t
+[2016-07-20 13:52:17] item‚Ö‘JˆÚ
+[2016-07-20 13:52:17] itemcode:jstoreinter_Y-P-T-AJIDAS
+[2016-07-20 13:52:19] logout
+[2016-07-20 13:52:27] login completed
+[2016-07-20 13:52:27] cart search completed
+[2016-07-20 13:52:27] login ok
+[2016-07-20 13:52:27] userID:29 username:a
+[2016-07-20 13:52:27] Cart
+[2016-07-20 13:52:31] userdatasearchByid completed
+[2016-07-20 13:52:31] mydata
+[2016-07-20 13:52:31] userID:29
+[2016-07-20 13:52:36] Search‚É‘JˆÚ
+[2016-07-20 13:52:36] ŒŸõŒê‹å:t
+[2016-07-20 13:52:40] item‚Ö‘JˆÚ
+[2016-07-20 13:52:40] itemcode:kobelettuce_X277
+[2016-07-20 13:52:45] item‚Ö‘JˆÚ
+[2016-07-20 13:52:45] itemcode:menscasual_t-shirt-43-mc
+[2016-07-20 13:52:49] item‚Ö‘JˆÚ
+[2016-07-20 13:52:49] itemcode:kobelettuce_X277
+[2016-07-20 13:52:58] item‚Ö‘JˆÚ
+[2016-07-20 13:52:58] itemcode:jstoreinter_Y-P-T-AJIDAS
+[2016-07-20 13:53:02] cart insert completed
+[2016-07-20 13:53:02] add‚Ö‘JˆÚ
+[2016-07-20 13:53:02] item:jstoreinter_Y-P-T-AJIDAS
+[2016-07-20 13:53:05] Cart
+[2016-07-20 13:53:06] userdatasearchByid completed
+[2016-07-20 13:53:06] mydata
+[2016-07-20 13:53:06] userID:29
+[2016-07-20 13:53:07] logout
+[2016-07-20 13:53:11] login completed
+[2016-07-20 13:53:11] cart search completed
+[2016-07-20 13:53:11] login ok
+[2016-07-20 13:53:11] userID:29 username:a
+[2016-07-20 13:53:12] Cart
+[2016-07-20 13:53:18] logout
+[2016-07-20 14:49:31] Search‚É‘JˆÚ
+[2016-07-20 14:49:31] ŒŸõŒê‹å:a
+[2016-07-20 14:49:32] item‚Ö‘JˆÚ
+[2016-07-20 14:49:32] itemcode:anzen-signshop_hkt-1
+[2016-07-20 14:49:34] add‚Ö‘JˆÚ
+[2016-07-20 14:49:34] item:anzen-signshop_hkt-1
+[2016-07-20 14:49:45] canIUseThisName completed
+[2016-07-20 14:49:49] canIUseThisName completed
+[2016-07-20 14:49:50] userdatainsert completed
+[2016-07-20 14:49:50] login completed
+[2016-07-20 14:49:50] cart search completed
+[2016-07-20 14:49:50] cart insert completed
+[2016-07-20 14:49:50] login ok
+[2016-07-20 14:49:50] userID:44 username:tueo
+[2016-07-20 14:49:54] Cart
+[2016-07-20 14:50:01] logout
+[2016-07-20 14:50:08] login completed
+[2016-07-20 14:50:08] cart search completed
+[2016-07-20 14:50:08] login ok
+[2016-07-20 14:50:08] userID:44 username:tueo
+[2016-07-20 14:50:10] Cart
+[2016-07-20 14:50:12] userdatasearchByid completed
+[2016-07-20 14:50:12] mydata
+[2016-07-20 14:50:12] userID:44
+[2016-07-20 14:50:18] Cart
+[2016-07-20 14:50:20] buyconfirm
+[2016-07-20 14:50:23] Cart
+[2016-07-20 14:50:28] buyconfirm
+[2016-07-20 14:50:32] Cart
+[2016-07-20 14:50:38] cart update completed
+[2016-07-20 14:50:38] Cart
+[2016-07-20 14:50:44] buyconfirm
+[2016-07-20 14:50:48] buydata insert completed
+[2016-07-20 14:50:48] userdata updatetotal completed
+[2016-07-20 14:50:48] cart delete completed
+[2016-07-20 14:50:48] buycomplete
+[2016-07-20 14:52:30] Search‚É‘JˆÚ
+[2016-07-20 14:52:30] ŒŸõŒê‹å:e
+[2016-07-20 14:52:35] item‚Ö‘JˆÚ
+[2016-07-20 14:52:35] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:52:39] cart insert completed
+[2016-07-20 14:52:39] add‚Ö‘JˆÚ
+[2016-07-20 14:52:39] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:52:45] [!ERROR]java.lang.NullPointerException
+kagoyume.Add.processRequest(Add.java:44)
+kagoyume.Add.doPost(Add.java:130)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.lang.Thread.run(Thread.java:745)
+[2016-07-20 14:52:52] item‚Ö‘JˆÚ
+[2016-07-20 14:52:52] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:52:53] cart delete completed
+[2016-07-20 14:52:53] cart insert completed
+[2016-07-20 14:52:53] add‚Ö‘JˆÚ
+[2016-07-20 14:52:53] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:52:55] [!ERROR]java.lang.NullPointerException
+kagoyume.Add.processRequest(Add.java:44)
+kagoyume.Add.doPost(Add.java:130)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.lang.Thread.run(Thread.java:745)
+[2016-07-20 14:54:31] item‚Ö‘JˆÚ
+[2016-07-20 14:54:31] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:32] cart delete completed
+[2016-07-20 14:54:32] cart insert completed
+[2016-07-20 14:54:32] add‚Ö‘JˆÚ
+[2016-07-20 14:54:32] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:34] item‚Ö‘JˆÚ
+[2016-07-20 14:54:34] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:36] cart delete completed
+[2016-07-20 14:54:36] cart insert completed
+[2016-07-20 14:54:36] add‚Ö‘JˆÚ
+[2016-07-20 14:54:36] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:39] item‚Ö‘JˆÚ
+[2016-07-20 14:54:39] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:41] cart delete completed
+[2016-07-20 14:54:41] cart insert completed
+[2016-07-20 14:54:41] add‚Ö‘JˆÚ
+[2016-07-20 14:54:41] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:43] item‚Ö‘JˆÚ
+[2016-07-20 14:54:43] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:54:58] cart delete completed
+[2016-07-20 14:54:58] cart insert completed
+[2016-07-20 14:54:58] add‚Ö‘JˆÚ
+[2016-07-20 14:54:58] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:55:00] item‚Ö‘JˆÚ
+[2016-07-20 14:55:00] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:55:01] cart delete completed
+[2016-07-20 14:55:01] cart insert completed
+[2016-07-20 14:55:01] add‚Ö‘JˆÚ
+[2016-07-20 14:55:01] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:55:03] item‚Ö‘JˆÚ
+[2016-07-20 14:55:03] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:55:22] Search‚É‘JˆÚ
+[2016-07-20 14:55:22] ŒŸõŒê‹å:e
+[2016-07-20 14:56:14] cart delete completed
+[2016-07-20 14:56:14] cart insert completed
+[2016-07-20 14:56:14] add‚Ö‘JˆÚ
+[2016-07-20 14:56:14] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:56:58] item‚Ö‘JˆÚ
+[2016-07-20 14:56:58] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:56:59] cart delete completed
+[2016-07-20 14:56:59] cart insert completed
+[2016-07-20 14:56:59] add‚Ö‘JˆÚ
+[2016-07-20 14:56:59] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:57:16] item‚Ö‘JˆÚ
+[2016-07-20 14:57:16] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:57:17] cart delete completed
+[2016-07-20 14:57:18] cart insert completed
+[2016-07-20 14:57:18] add‚Ö‘JˆÚ
+[2016-07-20 14:57:18] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:00] item‚Ö‘JˆÚ
+[2016-07-20 14:58:00] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:01] cart delete completed
+[2016-07-20 14:58:02] cart insert completed
+[2016-07-20 14:58:02] add‚Ö‘JˆÚ
+[2016-07-20 14:58:02] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:29] item‚Ö‘JˆÚ
+[2016-07-20 14:58:29] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:30] cart delete completed
+[2016-07-20 14:58:30] cart insert completed
+[2016-07-20 14:58:30] add‚Ö‘JˆÚ
+[2016-07-20 14:58:30] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:41] item‚Ö‘JˆÚ
+[2016-07-20 14:58:41] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:58:42] cart delete completed
+[2016-07-20 14:58:42] cart insert completed
+[2016-07-20 14:58:42] add‚Ö‘JˆÚ
+[2016-07-20 14:58:42] item:e-kitchenmaterial_cw2817e
+[2016-07-20 14:59:01] item‚Ö‘JˆÚ
+[2016-07-20 14:59:01] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 14:59:01] cart delete completed
+[2016-07-20 14:59:01] cart insert completed
+[2016-07-20 14:59:01] add‚Ö‘JˆÚ
+[2016-07-20 14:59:01] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:00:22] item‚Ö‘JˆÚ
+[2016-07-20 15:00:22] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:00:24] cart delete completed
+[2016-07-20 15:00:24] cart insert completed
+[2016-07-20 15:00:24] add‚Ö‘JˆÚ
+[2016-07-20 15:00:24] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:13] item‚Ö‘JˆÚ
+[2016-07-20 15:01:13] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:14] cart delete completed
+[2016-07-20 15:01:14] cart insert completed
+[2016-07-20 15:01:14] add‚Ö‘JˆÚ
+[2016-07-20 15:01:14] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:32] item‚Ö‘JˆÚ
+[2016-07-20 15:01:32] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:33] cart delete completed
+[2016-07-20 15:01:33] cart insert completed
+[2016-07-20 15:01:33] add‚Ö‘JˆÚ
+[2016-07-20 15:01:33] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:42] item‚Ö‘JˆÚ
+[2016-07-20 15:01:42] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:43] cart delete completed
+[2016-07-20 15:01:43] cart insert completed
+[2016-07-20 15:01:43] add‚Ö‘JˆÚ
+[2016-07-20 15:01:43] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:54] item‚Ö‘JˆÚ
+[2016-07-20 15:01:54] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:01:54] cart delete completed
+[2016-07-20 15:01:54] cart insert completed
+[2016-07-20 15:01:54] add‚Ö‘JˆÚ
+[2016-07-20 15:01:54] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:02:21] item‚Ö‘JˆÚ
+[2016-07-20 15:02:21] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:02:22] cart delete completed
+[2016-07-20 15:02:22] cart insert completed
+[2016-07-20 15:02:22] add‚Ö‘JˆÚ
+[2016-07-20 15:02:22] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:03:36] item‚Ö‘JˆÚ
+[2016-07-20 15:03:36] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:03:36] cart delete completed
+[2016-07-20 15:03:37] cart insert completed
+[2016-07-20 15:03:37] add‚Ö‘JˆÚ
+[2016-07-20 15:03:37] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:03:38] [!ERROR]java.lang.NumberFormatException: For input string: "null"
+java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+java.lang.Integer.parseInt(Integer.java:580)
+java.lang.Integer.parseInt(Integer.java:615)
+kagoyume.Search.processRequest(Search.java:45)
+kagoyume.Search.doGet(Search.java:84)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:503)
+org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+java.lang.Thread.run(Thread.java:745)
+[2016-07-20 15:04:24] item‚Ö‘JˆÚ
+[2016-07-20 15:04:24] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:04:25] cart delete completed
+[2016-07-20 15:04:25] cart insert completed
+[2016-07-20 15:04:25] add‚Ö‘JˆÚ
+[2016-07-20 15:04:25] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:04:27] Search‚É‘JˆÚ
+[2016-07-20 15:04:27] ŒŸõŒê‹å:e
+[2016-07-20 15:04:32] item‚Ö‘JˆÚ
+[2016-07-20 15:04:32] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:24] cart delete completed
+[2016-07-20 15:06:24] cart insert completed
+[2016-07-20 15:06:24] add‚Ö‘JˆÚ
+[2016-07-20 15:06:24] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:26] Search‚É‘JˆÚ
+[2016-07-20 15:06:26] ŒŸõŒê‹å:e
+[2016-07-20 15:06:27] item‚Ö‘JˆÚ
+[2016-07-20 15:06:27] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:28] cart delete completed
+[2016-07-20 15:06:28] cart insert completed
+[2016-07-20 15:06:28] add‚Ö‘JˆÚ
+[2016-07-20 15:06:28] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:31] item‚Ö‘JˆÚ
+[2016-07-20 15:06:31] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:34] cart delete completed
+[2016-07-20 15:06:34] cart insert completed
+[2016-07-20 15:06:34] add‚Ö‘JˆÚ
+[2016-07-20 15:06:34] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:06:44] item‚Ö‘JˆÚ
+[2016-07-20 15:06:44] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:07:50] Cart
+[2016-07-20 15:08:08] item‚Ö‘JˆÚ
+[2016-07-20 15:08:08] itemcode:e-kitchenmaterial_cw2817e
+[2016-07-20 15:08:09] cart delete completed
+[2016-07-20 15:08:09] cart insert completed
+[2016-07-20 15:08:09] add‚Ö‘JˆÚ
+[2016-07-20 15:08:09] item:e-kitchenmaterial_cw2817e
+[2016-07-20 15:08:11] Cart
+[2016-07-20 15:08:15] cart update completed
+[2016-07-20 15:08:15] Cart
+[2016-07-20 15:08:20] cart update completed
+[2016-07-20 15:08:20] Cart
+[2016-07-20 15:08:23] cart update completed
+[2016-07-20 15:08:23] Cart
+[2016-07-20 15:08:25] cart update completed
+[2016-07-20 15:08:25] Cart
+[2016-07-20 15:08:30] buyconfirm
+[2016-07-20 15:08:33] buydata insert completed
+[2016-07-20 15:08:33] userdata updatetotal completed
+[2016-07-20 15:08:33] cart delete completed
+[2016-07-20 15:08:33] buycomplete
+[2016-07-20 15:08:36] userdatasearchByid completed
+[2016-07-20 15:08:36] mydata
+[2016-07-20 15:08:36] userID:44
+[2016-07-20 15:08:40] buydata search complete
+[2016-07-20 15:08:40] myhistory
+[2016-07-20 15:08:40] userID44

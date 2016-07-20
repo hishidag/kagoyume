@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
-import java.sql.SQLException;
 
 /**
  *
@@ -88,10 +87,11 @@ public class Add extends HttpServlet {
                     CartDataDAO.getInstance().insert(userID, new CartDataDTO(cd));
                     hs.setAttribute("cart", cart);
                 }
-                //セッションに入れていたアイテムデータを削除
-                hs.removeAttribute("itemdata");
                 
                 Log.printLog("addへ遷移","item:" + cd.getItemcode());            
+                
+                request.setAttribute("query", hs.getAttribute("query"));
+                request.setAttribute("page",hs.getAttribute("page"));
                 request.setAttribute("itemdata", item);
                 request.setAttribute("qty",request.getParameter("qty"));
                 request.getRequestDispatcher("add.jsp").forward(request, response);

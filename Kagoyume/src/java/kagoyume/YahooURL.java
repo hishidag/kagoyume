@@ -12,7 +12,7 @@ import java.io.UnsupportedEncodingException;
  * @author user1
  */
 public class YahooURL {
-    private final static String APPID = "dj0zaiZpPTJ6TlVwSnk1WU9uUiZzPWNvbnN1bWVyc2VjcmV0Jng9ODY-";
+    private final static String APPID = "YahooAPPID";
                 
     /**
      * @param itemcode 商品の一意なコード
